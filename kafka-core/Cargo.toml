@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# kafka-protocol/Cargo.toml
+# Pure-Rust, auto-generated wire-format structs for the Kafka 4 protocol
+# ──────────────────────────────────────────────────────────────────────────────
+[package]
+name = "kafka4rs-core"
+version = "0.1.0-alpha.0"
+edition = "2024"
+license = "Apache-2.0"
+authors = ["Arend-Jan <arendjan.oosterveld@gmail.com>"]
+readme = "../README.md"
+repository = "https://github.com/Arend-Jan/kafka4rs"
+documentation = "https://docs.rs/kafka4rs-core"
+description = """
+Low-level Kafka 4.0 wire-protocol types (requests, responses, error codes) \
+with `Encode` / `Decode` traits.  Generated at build-time from Apache Kafka’s \
+official protocol schema so the crate stays up-to-date automatically.
+"""
+keywords = ["kafka", "protocol", "networking", "async", "no_std"]
+categories = ["asynchronous", "network-programming"]
+
+[dependencies]
+
+
+# ──────────────────
+# Feature flags
+# ──────────────────
+[features]
+
+# Building protocol code at compile time
+[build-dependencies]
