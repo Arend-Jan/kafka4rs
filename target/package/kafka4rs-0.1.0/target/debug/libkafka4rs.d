@@ -1,1 +1,0 @@
-/Users/arend-jan/Documents/Development/Rust/kafka4rs/target/package/kafka4rs-0.1.0/target/debug/libkafka4rs.rlib: /Users/arend-jan/Documents/Development/Rust/kafka4rs/target/package/kafka4rs-0.1.0/src/lib.rs
